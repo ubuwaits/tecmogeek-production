@@ -10,13 +10,13 @@
     <meta property="og:image" content="https://tecmogeek.com/images/tecmogeek.png">
     <title>San Diego Chargers &mdash; Tecmo Geek. The ultimate guide to Tecmo Super Bowl for NES.</title>
     <link rel="icon" type="image/png" href="/favicon.png">
-    <link rel="stylesheet" href="/stylesheets/application.css" media="screen">
+    <link rel="stylesheet" href="/css/application.css" media="screen">
   </head>
 
   <body class="chargers">
 
     <header class="main-header">
-  <h1><a href="/">Tecmo<br> Geek</a></h1>
+  <h1><a href="/">Tecmo<br>Geek</a></h1>
 
   <nav class="top-nav">
     <ul>
@@ -89,6 +89,7 @@
         <a href="#">Players</a>
         <ol class="player-list">
   <li>
+    <h6>Positions</h6>
     <ol>
       <li><a href="/players/qb/">Quarterbacks</a></li>
       <li><a href="/players/rushers/">Rushers</a></li>
@@ -109,13 +110,11 @@
   </li>
 </ol>
 
-
       </li>
-      <li class="rankings"><a href="/about/rankings">About Rankings</a></li>
+      <li class="rankings"><a href="/about/ratings">About Ratings</a></li>
     </ul>
   </nav>
 </header>
-
 
 
     <section id="container">
@@ -126,16 +125,16 @@
 </header>
 
 <!-- Quarterbacks -->
-<section class="players qb">
+<div class="players qb">
   <ol>
     <li class="player labels">
-      <section class="section-label">
-        <h3>QB</h3>
-      </section>
+      <div class="player-ranking">
+        <h5><a href="#" data-toggle="tooltip" title="Out of 56 QBs">QB&nbsp;Ranking</a></h5>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating-label">
         <h5><a href="#" data-toggle="tooltip" title="Out of 100%">Rating</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="maximum-speed"><a href="#" data-toggle="tooltip" title="Maximum Speed">MS</a></li>
@@ -147,17 +146,20 @@
 
     
       <li class="player">
-        <section class="ranking">20</section>
+        <div class="player-ranking">
+          <h5>20</h5>
+        </div>
+
         <i class="headshot headshot-chargers headshot-0"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">B.J. Tolliver</h3>
           <h4 class="player-position-number">QB1 #11</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5><a href="/players/qb/">48%</a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -168,17 +170,20 @@
       </li>
     
       <li class="player">
-        <section class="ranking">35</section>
+        <div class="player-ranking">
+          <h5>35</h5>
+        </div>
+
         <i class="headshot headshot-chargers headshot-1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Mark Vlasic</h3>
           <h4 class="player-position-number">QB2 #13</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5><a href="/players/qb/">42%</a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -190,21 +195,21 @@
     
   </ol>
 
-  <p class="ability-notes">All QB have Running Speed 25, Rushing Power 69, and Hitting Power 13. Accuracy of Passing has no effect on performance.</p>
-</section>
+  <p class="ability-notes">All QBs have Running Speed 25, Rushing Power 69, and Hitting Power 13. Accuracy of Passing has no affect on performance.</p>
+</div>
 
 
 <!-- RB/WR/TE -->
-<section class="players rb-wr-te rushing">
+<div class="players rb-wr-te rushing">
   <ol>
     <li class="player labels">
-      <section class="section-label">
-        <h3>RB/WR/TE</h3>
-      </section>
+      <div class="player-ranking">
+        <h5><a href="#" data-toggle="tooltip" title="Out of 280 RB, WR & TE">RB/WR/TE&nbsp;Ranking</a></h5>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating-label">
         <h5><a href="#" data-toggle="tooltip" title="Out of 100%">Rating</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="running-speed"><a href="#" data-toggle="tooltip" title="Running Speed">RS</a></li>
@@ -219,7 +224,6 @@
 
     <li>
       <ul class="skill-toggles">
-        <!--<li><a href="#" class="toggle-default active">Default</a></li>-->
         <li><a href="#" class="toggle-rushing active">Rushing</a></li>
         <li><a href="#" class="toggle-receiving"><span>Receiving</span></a></li>
         <li><a href="#" class="toggle-kick-return">Kick Returning</a></li>
@@ -229,23 +233,35 @@
 
     
       <li class="player player-listing RB1" data-number="2">
-        <section class="ranking rushing-ranking">13</section>
-        <section class="ranking receiving-ranking">112</section>
-        <section class="ranking kick-return-ranking">137</section>
-        <section class="ranking punt-return-ranking">188</section>
+        <div class="player-ranking rushing-ranking">
+          <h5>13</h5>
+        </div>
+
+        <div class="player-ranking receiving-ranking">
+          <h5>112</h5>
+        </div>
+
+        <div class="player-ranking kick-return-ranking">
+          <h5>137</h5>
+        </div>
+
+        <div class="player-ranking punt-return-ranking">
+          <h5>188</h5>
+        </div>
+
         <i class="headshot headshot-chargers headshot-2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Marion Butts</h3>
           <h4 class="player-position-number">RB1 #35</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5 class="rushing-rating"><a href="/players/rushers/">69%</a></h5>
           <h5 class="receiving-rating"><a href="/players/receivers/">50%</a></h5>
           <h5 class="kick-return-rating"><a href="/players/kick-returners/">52%</a></h5>
           <h5 class="punt-return-rating"><a href="/players/punt-returners/">57%</a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="running-speed power-38">38</li>
@@ -259,23 +275,35 @@
       </li>
     
       <li class="player player-listing RB2" data-number="3">
-        <section class="ranking rushing-ranking">202</section>
-        <section class="ranking receiving-ranking">275</section>
-        <section class="ranking kick-return-ranking">110</section>
-        <section class="ranking punt-return-ranking">167</section>
+        <div class="player-ranking rushing-ranking">
+          <h5>202</h5>
+        </div>
+
+        <div class="player-ranking receiving-ranking">
+          <h5>275</h5>
+        </div>
+
+        <div class="player-ranking kick-return-ranking">
+          <h5>110</h5>
+        </div>
+
+        <div class="player-ranking punt-return-ranking">
+          <h5>167</h5>
+        </div>
+
         <i class="headshot headshot-chargers headshot-3"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Rod Bernstine</h3>
           <h4 class="player-position-number">RB2 #82</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5 class="rushing-rating"><a href="/players/rushers/">35%</a></h5>
           <h5 class="receiving-rating"><a href="/players/receivers/">32%</a></h5>
           <h5 class="kick-return-rating"><a href="/players/kick-returners/">54%</a></h5>
           <h5 class="punt-return-rating"><a href="/players/punt-returners/">59%</a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="running-speed power-44">44</li>
@@ -289,23 +317,35 @@
       </li>
     
       <li class="player player-listing RB3" data-number="4">
-        <section class="ranking rushing-ranking">206</section>
-        <section class="ranking receiving-ranking">258</section>
-        <section class="ranking kick-return-ranking">159</section>
-        <section class="ranking punt-return-ranking">193</section>
+        <div class="player-ranking rushing-ranking">
+          <h5>206</h5>
+        </div>
+
+        <div class="player-ranking receiving-ranking">
+          <h5>258</h5>
+        </div>
+
+        <div class="player-ranking kick-return-ranking">
+          <h5>159</h5>
+        </div>
+
+        <div class="player-ranking punt-return-ranking">
+          <h5>193</h5>
+        </div>
+
         <i class="headshot headshot-chargers headshot-4"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Joe Caravello</h3>
           <h4 class="player-position-number">RB3 #46</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5 class="rushing-rating"><a href="/players/rushers/">34%</a></h5>
           <h5 class="receiving-rating"><a href="/players/receivers/">35%</a></h5>
           <h5 class="kick-return-rating"><a href="/players/kick-returners/">52%</a></h5>
           <h5 class="punt-return-rating"><a href="/players/punt-returners/">57%</a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="running-speed power-38">38</li>
@@ -319,23 +359,35 @@
       </li>
     
       <li class="player player-listing RB4" data-number="5">
-        <section class="ranking rushing-ranking">142</section>
-        <section class="ranking receiving-ranking">87</section>
-        <section class="ranking kick-return-ranking">132</section>
-        <section class="ranking punt-return-ranking">185</section>
+        <div class="player-ranking rushing-ranking">
+          <h5>142</h5>
+        </div>
+
+        <div class="player-ranking receiving-ranking">
+          <h5>87</h5>
+        </div>
+
+        <div class="player-ranking kick-return-ranking">
+          <h5>132</h5>
+        </div>
+
+        <div class="player-ranking punt-return-ranking">
+          <h5>185</h5>
+        </div>
+
         <i class="headshot headshot-chargers headshot-5"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Ronnie Harmon</h3>
           <h4 class="player-position-number">RB4 #33</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5 class="rushing-rating"><a href="/players/rushers/">41%</a></h5>
           <h5 class="receiving-rating"><a href="/players/receivers/">52%</a></h5>
           <h5 class="kick-return-rating"><a href="/players/kick-returners/">52%</a></h5>
           <h5 class="punt-return-rating"><a href="/players/punt-returners/">57%</a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="running-speed power-38">38</li>
@@ -349,23 +401,35 @@
       </li>
     
       <li class="player player-listing WR1" data-number="6">
-        <section class="ranking rushing-ranking">165</section>
-        <section class="ranking receiving-ranking">136</section>
-        <section class="ranking kick-return-ranking">183</section>
-        <section class="ranking punt-return-ranking">210</section>
+        <div class="player-ranking rushing-ranking">
+          <h5>165</h5>
+        </div>
+
+        <div class="player-ranking receiving-ranking">
+          <h5>136</h5>
+        </div>
+
+        <div class="player-ranking kick-return-ranking">
+          <h5>183</h5>
+        </div>
+
+        <div class="player-ranking punt-return-ranking">
+          <h5>210</h5>
+        </div>
+
         <i class="headshot headshot-chargers headshot-6"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Quinn Early</h3>
           <h4 class="player-position-number">WR1 #87</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5 class="rushing-rating"><a href="/players/rushers/">40%</a></h5>
           <h5 class="receiving-rating"><a href="/players/receivers/">48%</a></h5>
           <h5 class="kick-return-rating"><a href="/players/kick-returners/">50%</a></h5>
           <h5 class="punt-return-rating"><a href="/players/punt-returners/">54%</a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="running-speed power-31">31</li>
@@ -379,23 +443,35 @@
       </li>
     
       <li class="player player-listing WR2" data-number="7">
-        <section class="ranking rushing-ranking">49</section>
-        <section class="ranking receiving-ranking">16</section>
-        <section class="ranking kick-return-ranking">116</section>
-        <section class="ranking punt-return-ranking">184</section>
+        <div class="player-ranking rushing-ranking">
+          <h5>49</h5>
+        </div>
+
+        <div class="player-ranking receiving-ranking">
+          <h5>16</h5>
+        </div>
+
+        <div class="player-ranking kick-return-ranking">
+          <h5>116</h5>
+        </div>
+
+        <div class="player-ranking punt-return-ranking">
+          <h5>184</h5>
+        </div>
+
         <i class="headshot headshot-chargers headshot-7"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Anthony Miller</h3>
           <h4 class="player-position-number">WR2 #83</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5 class="rushing-rating"><a href="/players/rushers/">54%</a></h5>
           <h5 class="receiving-rating"><a href="/players/receivers/">69%</a></h5>
           <h5 class="kick-return-rating"><a href="/players/kick-returners/">52%</a></h5>
           <h5 class="punt-return-rating"><a href="/players/punt-returners/">57%</a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="running-speed power-38">38</li>
@@ -409,23 +485,35 @@
       </li>
     
       <li class="player player-listing WR3" data-number="8">
-        <section class="ranking rushing-ranking">224</section>
-        <section class="ranking receiving-ranking">166</section>
-        <section class="ranking kick-return-ranking">212</section>
-        <section class="ranking punt-return-ranking">227</section>
+        <div class="player-ranking rushing-ranking">
+          <h5>224</h5>
+        </div>
+
+        <div class="player-ranking receiving-ranking">
+          <h5>166</h5>
+        </div>
+
+        <div class="player-ranking kick-return-ranking">
+          <h5>212</h5>
+        </div>
+
+        <div class="player-ranking punt-return-ranking">
+          <h5>227</h5>
+        </div>
+
         <i class="headshot headshot-chargers headshot-8"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Nate Lewis</h3>
           <h4 class="player-position-number">WR3 #81</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5 class="rushing-rating"><a href="/players/rushers/">33%</a></h5>
           <h5 class="receiving-rating"><a href="/players/receivers/">44%</a></h5>
           <h5 class="kick-return-rating"><a href="/players/kick-returners/">48%</a></h5>
           <h5 class="punt-return-rating"><a href="/players/punt-returners/">53%</a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="running-speed power-25">25</li>
@@ -439,23 +527,35 @@
       </li>
     
       <li class="player player-listing WR4" data-number="9">
-        <section class="ranking rushing-ranking">166</section>
-        <section class="ranking receiving-ranking">137</section>
-        <section class="ranking kick-return-ranking">184</section>
-        <section class="ranking punt-return-ranking">211</section>
+        <div class="player-ranking rushing-ranking">
+          <h5>166</h5>
+        </div>
+
+        <div class="player-ranking receiving-ranking">
+          <h5>137</h5>
+        </div>
+
+        <div class="player-ranking kick-return-ranking">
+          <h5>184</h5>
+        </div>
+
+        <div class="player-ranking punt-return-ranking">
+          <h5>211</h5>
+        </div>
+
         <i class="headshot headshot-chargers headshot-9"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Wayne Walker</h3>
           <h4 class="player-position-number">WR4 #80</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5 class="rushing-rating"><a href="/players/rushers/">40%</a></h5>
           <h5 class="receiving-rating"><a href="/players/receivers/">48%</a></h5>
           <h5 class="kick-return-rating"><a href="/players/kick-returners/">50%</a></h5>
           <h5 class="punt-return-rating"><a href="/players/punt-returners/">54%</a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="running-speed power-31">31</li>
@@ -469,23 +569,35 @@
       </li>
     
       <li class="player player-listing TE1" data-number="10">
-        <section class="ranking rushing-ranking">185</section>
-        <section class="ranking receiving-ranking">183</section>
-        <section class="ranking kick-return-ranking">219</section>
-        <section class="ranking punt-return-ranking">228</section>
+        <div class="player-ranking rushing-ranking">
+          <h5>185</h5>
+        </div>
+
+        <div class="player-ranking receiving-ranking">
+          <h5>183</h5>
+        </div>
+
+        <div class="player-ranking kick-return-ranking">
+          <h5>219</h5>
+        </div>
+
+        <div class="player-ranking punt-return-ranking">
+          <h5>228</h5>
+        </div>
+
         <i class="headshot headshot-chargers headshot-10"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Derrick Walker</h3>
           <h4 class="player-position-number">TE1 #89</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5 class="rushing-rating"><a href="/players/rushers/">38%</a></h5>
           <h5 class="receiving-rating"><a href="/players/receivers/">43%</a></h5>
           <h5 class="kick-return-rating"><a href="/players/kick-returners/">48%</a></h5>
           <h5 class="punt-return-rating"><a href="/players/punt-returners/">53%</a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="running-speed power-25">25</li>
@@ -499,23 +611,35 @@
       </li>
     
       <li class="player player-listing TE2" data-number="11">
-        <section class="ranking rushing-ranking">267</section>
-        <section class="ranking receiving-ranking">265</section>
-        <section class="ranking kick-return-ranking">232</section>
-        <section class="ranking punt-return-ranking">231</section>
+        <div class="player-ranking rushing-ranking">
+          <h5>267</h5>
+        </div>
+
+        <div class="player-ranking receiving-ranking">
+          <h5>265</h5>
+        </div>
+
+        <div class="player-ranking kick-return-ranking">
+          <h5>232</h5>
+        </div>
+
+        <div class="player-ranking punt-return-ranking">
+          <h5>231</h5>
+        </div>
+
         <i class="headshot headshot-chargers headshot-11"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Arthur Cox</h3>
           <h4 class="player-position-number">TE2 #88</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5 class="rushing-rating"><a href="/players/rushers/">27%</a></h5>
           <h5 class="receiving-rating"><a href="/players/receivers/">34%</a></h5>
           <h5 class="kick-return-rating"><a href="/players/kick-returners/">48%</a></h5>
           <h5 class="punt-return-rating"><a href="/players/punt-returners/">53%</a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="running-speed power-25">25</li>
@@ -530,22 +654,22 @@
     
   </ol>
 
-  <p class="ability-notes rb-wr-te-notes">All RB, WR and TE have Rushing Power 69.</p>
-  <p class="ability-notes kick-return-notes">Due to a programming glitch, all KR have the same Maximum Speed as their team&rsquo;s RT.</p>
-  <p class="ability-notes punt-return-notes">Due to a programming glitch, all PR have the same Maximum Speed as their team&rsquo;s SS and Ball Control 44.</p>
-</section>
+  <p class="ability-notes rb-wr-te-notes">All RBs, WRs and TEs have Rushing Power 69.</p>
+  <p class="ability-notes kick-return-notes">Due to a programming glitch, all KRs have the same Maximum Speed as their team&rsquo;s RT.</p>
+  <p class="ability-notes punt-return-notes">Due to a programming glitch, all PRs have the same Maximum Speed as their team&rsquo;s SS and Ball Control 44.</p>
+</div>
 
 <!-- Offensive Line -->
-<section class="players ol">
+<div class="players ol">
   <ol>
     <li class="player labels">
-      <section class="section-label">
-        <h3>OL</h3>
-      </section>
+      <div class="player-ranking">
+        <h5><a href="#" data-toggle="tooltip" title="Out of 140 OL">OL&nbsp;Ranking</a></h5>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating-label">
         <h5><a href="#" data-toggle="tooltip" title="Out of 100%">Rating</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="maximum-speed"><a href="#" data-toggle="tooltip" title="Maximum Speed">MS</a></li>
@@ -555,17 +679,20 @@
 
     
     <li class="player">
-        <section class="ranking">50</section>
+      <div class="player-ranking">
+        <h5>50</h5>
+      </div>
+
         <i class="headshot headshot-chargers headshot-12"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Frank Cornish</h3>
           <h4 class="player-position-number">C #63</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5><a href="/players/ol/"><span class="rating">66%</span></a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-31">31</li>
@@ -574,17 +701,20 @@
       </li>
     
     <li class="player">
-        <section class="ranking">43</section>
+      <div class="player-ranking">
+        <h5>43</h5>
+      </div>
+
         <i class="headshot headshot-chargers headshot-13"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Courtney Hall</h3>
           <h4 class="player-position-number">LG #53</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5><a href="/players/ol/"><span class="rating">69%</span></a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-38">38</li>
@@ -593,17 +723,20 @@
       </li>
     
     <li class="player">
-        <section class="ranking">46</section>
+      <div class="player-ranking">
+        <h5>46</h5>
+      </div>
+
         <i class="headshot headshot-chargers headshot-14"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">David Richards</h3>
           <h4 class="player-position-number">RG #65</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5><a href="/players/ol/"><span class="rating">68%</span></a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-25">25</li>
@@ -612,17 +745,20 @@
       </li>
     
     <li class="player">
-        <section class="ranking">63</section>
+      <div class="player-ranking">
+        <h5>63</h5>
+      </div>
+
         <i class="headshot headshot-chargers headshot-15"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Joel Patten</h3>
           <h4 class="player-position-number">LT #78</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5><a href="/players/ol/"><span class="rating">64%</span></a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-25">25</li>
@@ -631,17 +767,20 @@
       </li>
     
     <li class="player">
-        <section class="ranking">89</section>
+      <div class="player-ranking">
+        <h5>89</h5>
+      </div>
+
         <i class="headshot headshot-chargers headshot-16"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">B. Thompson</h3>
           <h4 class="player-position-number">RT #76</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5><a href="/players/ol/"><span class="rating">60%</span></a></h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-25">25</li>
@@ -651,19 +790,19 @@
     
   </ol>
   <p class="ability-notes">All OL have Running Speed 25 and Rushing Power 69.</p>
-</section>
+</div>
 
 <!-- Defensive Line -->
-<section class="players dl">
+<div class="players dl">
   <ol>
     <li class="player labels">
-      <section class="section-label">
-        <h3>DL</h3>
-      </section>
+      <div class="player-ranking">
+        <h5><a href="#" data-toggle="tooltip" title="Out of 84 DL">DL&nbsp;Ranking</a></h5>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating-label">
         <h5><a href="#" data-toggle="tooltip" title="Out of 100%">Rating</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="running-speed"><a href="#" data-toggle="tooltip" title="Running Speed">RS</a></li>
@@ -676,17 +815,20 @@
 
     
     <li class="player">
-      <section class="ranking">26</section>
+      <div class="player-ranking">
+        <h5>26</h5>
+      </div>
+
       <i class="headshot headshot-chargers headshot-17"></i>
 
-      <section class="player-info">
+      <div class="player-info">
         <h3 class="player-name">Burt Grossman</h3>
         <h4 class="player-position-number">RE #92</h4>
-      </section>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating">
         <h5><a href="/players/dl/">65%</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="running-speed power-31">31</li>
@@ -698,17 +840,20 @@
     </li>
     
     <li class="player">
-      <section class="ranking">30</section>
+      <div class="player-ranking">
+        <h5>30</h5>
+      </div>
+
       <i class="headshot headshot-chargers headshot-18"></i>
 
-      <section class="player-info">
+      <div class="player-info">
         <h3 class="player-name">Les Miller</h3>
         <h4 class="player-position-number">NT #69</h4>
-      </section>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating">
         <h5><a href="/players/dl/">63%</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="running-speed power-25">25</li>
@@ -720,17 +865,20 @@
     </li>
     
     <li class="player">
-      <section class="ranking">19</section>
+      <div class="player-ranking">
+        <h5>19</h5>
+      </div>
+
       <i class="headshot headshot-chargers headshot-19"></i>
 
-      <section class="player-info">
+      <div class="player-info">
         <h3 class="player-name">Lee Williams</h3>
         <h4 class="player-position-number">LE #99</h4>
-      </section>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating">
         <h5><a href="/players/dl/">69%</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="running-speed power-31">31</li>
@@ -742,19 +890,19 @@
     </li>
     
   </ol>
-</section>
+</div>
 
 <!-- Linebackers -->
-<section class="players lb">
+<div class="players lb">
   <ol>
     <li class="player labels">
-      <section class="section-label">
-        <h3>LB</h3>
-      </section>
+      <div class="player-ranking">
+        <h5><a href="#" data-toggle="tooltip" title="Out of 112 LBs">LB&nbsp;Ranking</a></h5>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating-label">
         <h5><a href="#" data-toggle="tooltip" title="Out of 100%">Rating</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="running-speed"><a href="#" data-toggle="tooltip" title="Running Speed">RS</a></li>
@@ -766,17 +914,20 @@
     </li>
     
     <li class="player">
-      <section class="ranking">13</section>
+      <div class="player-ranking">
+        <h5>13</h5>
+      </div>
+
       <i class="headshot headshot-chargers headshot-20"></i>
 
-      <section class="player-info">
+      <div class="player-info">
         <h3 class="player-name">Leslie O.Neal</h3>
         <h4 class="player-position-number">ROLB #91</h4>
-      </section>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating">
         <h5><a href="/players/lb/">78%</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="running-speed power-38">38</li>
@@ -788,17 +939,20 @@
     </li>
     
     <li class="player">
-      <section class="ranking">75</section>
+      <div class="player-ranking">
+        <h5>75</h5>
+      </div>
+
       <i class="headshot headshot-chargers headshot-21"></i>
 
-      <section class="player-info">
+      <div class="player-info">
         <h3 class="player-name">Junior Seau</h3>
         <h4 class="player-position-number">RILB #55</h4>
-      </section>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating">
         <h5><a href="/players/lb/">53%</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="running-speed power-25">25</li>
@@ -810,17 +964,20 @@
     </li>
     
     <li class="player">
-      <section class="ranking">34</section>
+      <div class="player-ranking">
+        <h5>34</h5>
+      </div>
+
       <i class="headshot headshot-chargers headshot-22"></i>
 
-      <section class="player-info">
+      <div class="player-info">
         <h3 class="player-name">Gary Plummer</h3>
         <h4 class="player-position-number">LILB #50</h4>
-      </section>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating">
         <h5><a href="/players/lb/">68%</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="running-speed power-25">25</li>
@@ -832,17 +989,20 @@
     </li>
     
     <li class="player">
-      <section class="ranking">71</section>
+      <div class="player-ranking">
+        <h5>71</h5>
+      </div>
+
       <i class="headshot headshot-chargers headshot-23"></i>
 
-      <section class="player-info">
+      <div class="player-info">
         <h3 class="player-name">Henry Rolling</h3>
         <h4 class="player-position-number">LOLB #57</h4>
-      </section>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating">
         <h5><a href="/players/lb/">53%</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="running-speed power-25">25</li>
@@ -854,19 +1014,19 @@
     </li>
     
   </ol>
-</section>
+</div>
 
 <!-- Secondary -->
-<section class="players secondary">
+<div class="players secondary">
   <ol>
     <li class="player labels">
-      <section class="section-label">
-        <h3>CB/S</h3>
-      </section>
+      <div class="player-ranking">
+        <h5><a href="#" data-toggle="tooltip" title="Out of 112 CB & S">CB/S&nbsp;Ranking</a></h5>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating-label">
         <h5><a href="#" data-toggle="tooltip" title="Out of 100%">Rating</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="running-speed"><a href="#" data-toggle="tooltip" title="Running Speed">RS</a></li>
@@ -879,17 +1039,20 @@
 
     
     <li class="player">
-      <section class="ranking">30</section>
+      <div class="player-ranking">
+        <h5>30</h5>
+      </div>
+
       <i class="headshot headshot-chargers headshot-24"></i>
 
-      <section class="player-info">
+      <div class="player-info">
         <h3 class="player-name">Sam Seale</h3>
         <h4 class="player-position-number">RCB #30</h4>
-      </section>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating">
         <h5><a href="/players/cb-s/">68%</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="running-speed power-38">38</li>
@@ -901,17 +1064,20 @@
     </li>
     
     <li class="player">
-      <section class="ranking">9</section>
+      <div class="player-ranking">
+        <h5>9</h5>
+      </div>
+
       <i class="headshot headshot-chargers headshot-25"></i>
 
-      <section class="player-info">
+      <div class="player-info">
         <h3 class="player-name">Gill Byrd</h3>
         <h4 class="player-position-number">LCB #22</h4>
-      </section>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating">
         <h5><a href="/players/cb-s/">83%</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="running-speed power-38">38</li>
@@ -923,17 +1089,20 @@
     </li>
     
     <li class="player">
-      <section class="ranking">57</section>
+      <div class="player-ranking">
+        <h5>57</h5>
+      </div>
+
       <i class="headshot headshot-chargers headshot-26"></i>
 
-      <section class="player-info">
+      <div class="player-info">
         <h3 class="player-name">Vencie Glenn</h3>
         <h4 class="player-position-number">FS #25</h4>
-      </section>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating">
         <h5><a href="/players/cb-s/">60%</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="running-speed power-31">31</li>
@@ -945,17 +1114,20 @@
     </li>
     
     <li class="player">
-      <section class="ranking">81</section>
+      <div class="player-ranking">
+        <h5>81</h5>
+      </div>
+
       <i class="headshot headshot-chargers headshot-27"></i>
 
-      <section class="player-info">
+      <div class="player-info">
         <h3 class="player-name">Martin Bayless</h3>
         <h4 class="player-position-number">SS #44</h4>
-      </section>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating">
         <h5><a href="/players/cb-s/">54%</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="running-speed power-25">25</li>
@@ -967,20 +1139,20 @@
     </li>
     
   </ol>
-  <p class="ability-notes">Quickness has no effect on performance for any defensive player.</p>
-</section>
+  <p class="ability-notes">Quickness has no affect on performance for any defensive player.</p>
+</div>
 
 <!-- Kicker -->
-<section class="players kicker">
+<div class="players kicker">
   <ol>
     <li class="player labels">
-      <section class="section-label">
-        <h3>K</h3>
-      </section>
+      <div class="player-ranking">
+        <h5><a href="#" data-toggle="tooltip" title="Out of 28 kickers">K&nbsp;Ranking</a></h5>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating-label">
         <h5><a href="#" data-toggle="tooltip" title="Out of 100%">Rating</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="kicking-ability"><a href="#" data-toggle="tooltip" title="Kicking Ability">KA</a></li>
@@ -988,17 +1160,20 @@
       </ul>
     </li>
     <li class="player">
-      <section class="ranking">5</section>
+      <div class="player-ranking">
+        <h5>5</h5>
+      </div>
+
       <i class="headshot headshot-chargers headshot-28"></i>
 
-      <section class="player-info">
+      <div class="player-info">
         <h3 class="player-name">John Carney</h3>
         <h4 class="player-position-number">K #3</h4>
-      </section>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating">
         <h5><a href="/players/k/">83%</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="kicking-ability power-75">75</li>
@@ -1006,20 +1181,20 @@
       </ul>
     </li>
   </ol>
-  <p class="ability-notes">All K have Running Speed 56, Rushing Power 81, Maximum Speed 81, and Hitting Power 31.</p>
-</section>
+  <p class="ability-notes">All kickers have Running Speed 56, Rushing Power 81, Maximum Speed 81, and Hitting Power 31.</p>
+</div>
 
 <!-- Punter -->
-<section class="players punter">
+<div class="players punter">
   <ol>
     <li class="player labels">
-      <section class="section-label">
-        <h3>P</h3>
-      </section>
+      <div class="player-ranking">
+        <h5><a href="#" data-toggle="tooltip" title="Out of 28 punters">P&nbsp;Ranking</a></h5>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating-label">
         <h5><a href="#" data-toggle="tooltip" title="Out of 100%">Rating</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="kicking-ability"><a href="#" data-toggle="tooltip" title="Kicking Ability">KA</a></li>
@@ -1027,17 +1202,20 @@
       </ul>
     </li>
     <li class="player">
-      <section class="ranking">6</section>
+      <div class="player-ranking">
+        <h5>6</h5>
+      </div>
+
       <i class="headshot headshot-chargers headshot-29"></i>
 
-      <section class="player-info">
+      <div class="player-info">
         <h3 class="player-name">John Kidd</h3>
         <h4 class="player-position-number">P #10</h4>
-      </section>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating">
         <h5><a href="/players/p/">80%</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="kicking-ability power-69">69</li>
@@ -1045,9 +1223,8 @@
       </ul>
     </li>
   </ol>
-  <p class="ability-notes">All P have Running Speed 25, Rushing Power 56, Maximum Speed 44, and Hitting Power 31.</p>
-</section>
-
+  <p class="ability-notes">All punters have Running Speed 25, Rushing Power 56, Maximum Speed 44, and Hitting Power 31.</p>
+</div>
 
 
 
@@ -1055,6 +1232,29 @@
 
     <footer>
   <section class="footer-lists">
+    <ol class="player-list">
+  <li>
+    <h6>Positions</h6>
+    <ol>
+      <li><a href="/players/qb/">Quarterbacks</a></li>
+      <li><a href="/players/rushers/">Rushers</a></li>
+      <li><a href="/players/receivers/">Receivers</a></li>
+      <li><a href="/players/kick-returners/">Kick Returners</a></li>
+      <li><a href="/players/punt-returners/">Punt Returners</a></li>
+      <li><a href="/players/ol/">Offensive Linemen</a></li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li><a href="/players/dl/">Defensive Linemen</a></li>
+      <li><a href="/players/lb/">Linebackers</a></li>
+      <li><a href="/players/cb-s/">Secondary</a></li>
+      <li><a href="/players/k/">Kickers</a></li>
+      <li><a href="/players/p/">Punters</a></li>
+    </ol>
+  </li>
+</ol>
+
     <ol class="team-list">
   <li>
     <h6>AFC East</h6>
@@ -1117,42 +1317,18 @@
 </ol>
 
 
-    <ol class="player-list">
-  <li>
-    <ol>
-      <li><a href="/players/qb/">Quarterbacks</a></li>
-      <li><a href="/players/rushers/">Rushers</a></li>
-      <li><a href="/players/receivers/">Receivers</a></li>
-      <li><a href="/players/kick-returners/">Kick Returners</a></li>
-      <li><a href="/players/punt-returners/">Punt Returners</a></li>
-      <li><a href="/players/ol/">Offensive Linemen</a></li>
-    </ol>
-  </li>
-  <li>
-    <ol>
-      <li><a href="/players/dl/">Defensive Linemen</a></li>
-      <li><a href="/players/lb/">Linebackers</a></li>
-      <li><a href="/players/cb-s/">Secondary</a></li>
-      <li><a href="/players/k/">Kickers</a></li>
-      <li><a href="/players/p/">Punters</a></li>
-    </ol>
-  </li>
-</ol>
-
-
   </section>
 
   <section class="credits">
-    <p class="left">A labor of love by <a href="https://chad.is">Chad Mazzola</a></p>
-    <p class="right">I also made this: <a href="//beautifulwebtype.com">Beautiful Web Type</a></p>
+    <p>A labor of love by <a href="https://chad.is">Chad Mazzola</a> &bull; Also check out <a href="//beautifulwebtype.com">Beautiful Web Type</a></p>    
   </section>
 </footer>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="/javascripts/bootstrap.min.js"></script>
-    <script src="/javascripts/jquery.tinysort.min.js"></script>
-    <script src="/javascripts/application.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.tinysort.min.js"></script>
+    <script src="/js/application.js"></script>
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "095c2ad9809848348d9f40bc135848b6"}'></script>
   </body>
 </html>

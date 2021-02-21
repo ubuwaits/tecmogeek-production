@@ -10,13 +10,13 @@
     <meta property="og:image" content="https://tecmogeek.com/images/tecmogeek.png">
     <title>Quarterbacks &mdash; Tecmo Geek. The ultimate guide to Tecmo Super Bowl for NES.</title>
     <link rel="icon" type="image/png" href="/favicon.png">
-    <link rel="stylesheet" href="/stylesheets/application.css" media="screen">
+    <link rel="stylesheet" href="/css/application.css" media="screen">
   </head>
 
   <body class="body-players">
 
     <header class="main-header">
-  <h1><a href="/">Tecmo<br> Geek</a></h1>
+  <h1><a href="/">Tecmo<br>Geek</a></h1>
 
   <nav class="top-nav">
     <ul>
@@ -89,6 +89,7 @@
         <a href="#">Players</a>
         <ol class="player-list">
   <li>
+    <h6>Positions</h6>
     <ol>
       <li><a href="/players/qb/">Quarterbacks</a></li>
       <li><a href="/players/rushers/">Rushers</a></li>
@@ -109,13 +110,11 @@
   </li>
 </ol>
 
-
       </li>
-      <li class="rankings"><a href="/about/rankings">About Rankings</a></li>
+      <li class="rankings"><a href="/about/ratings">About Ratings</a></li>
     </ul>
   </nav>
 </header>
-
 
 
     <section id="container">
@@ -123,19 +122,19 @@
 
 <header>
   <h1>Quarterbacks</h1>
+  <p class="ability-notes">All QBs have Running Speed 25, Rushing Power 69, and Hitting Power 13. Accuracy of Passing has no affect on performance.</p>
 </header>
 
-<!-- Quarterbacks -->
-<section class="players qb">
+<div class="players qb">
   <ol>
     <li class="player labels">
-      <section class="section-label">
-        <h3>QB</h3>
-      </section>
+      <div class="player-ranking">
+        <h5><a href="#" data-toggle="tooltip" title="Out of 56 QBs">Ranking</a></h5>
+      </div>
 
-      <section class="player-rating">
+      <div class="player-rating-label">
         <h5><a href="#" data-toggle="tooltip" title="Out of 100%">Rating</a></h5>
-      </section>
+      </div>
 
       <ul class="player-abilities">
         <li class="maximum-speed"><a href="#" data-toggle="tooltip" title="Maximum Speed">MS</a></li>
@@ -147,18 +146,21 @@
 
     
       <li class="player player-listing">
-        <section class="ranking">1</section>
+        <div class="player-ranking">
+          <h5>1</h5>
+        </div>
+
         <a href="/teams/eagles/"><i class="helmet helmet-eagles"></i></a>
         <i class="headshot headshot-eagles headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">QB Eagles</h3>
           <h4 class="player-position-number">QB1 #0</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>87%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-56">56</li>
@@ -169,18 +171,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">2</section>
+        <div class="player-ranking">
+          <h5>2</h5>
+        </div>
+
         <a href="/teams/49ers/"><i class="helmet helmet-49ers"></i></a>
         <i class="headshot headshot-49ers headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Joe Montana</h3>
           <h4 class="player-position-number">QB1 #16</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>77%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-19">19</li>
@@ -191,18 +196,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">3</section>
+        <div class="player-ranking">
+          <h5>3</h5>
+        </div>
+
         <a href="/teams/oilers/"><i class="helmet helmet-oilers"></i></a>
         <i class="headshot headshot-oilers headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Warren Moon</h3>
           <h4 class="player-position-number">QB1 #1</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>76%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-19">19</li>
@@ -213,18 +221,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">4</section>
+        <div class="player-ranking">
+          <h5>4</h5>
+        </div>
+
         <a href="/teams/bills/"><i class="helmet helmet-bills"></i></a>
         <i class="headshot headshot-bills headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">QB Bills</h3>
           <h4 class="player-position-number">QB1 #0</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>75%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -235,18 +246,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">5</section>
+        <div class="player-ranking">
+          <h5>5</h5>
+        </div>
+
         <a href="/teams/browns/"><i class="helmet helmet-browns"></i></a>
         <i class="headshot headshot-browns headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">QB Browns</h3>
           <h4 class="player-position-number">QB1 #0</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>71%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-25">25</li>
@@ -257,18 +271,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">6</section>
+        <div class="player-ranking">
+          <h5>6</h5>
+        </div>
+
         <a href="/teams/dolphins/"><i class="helmet helmet-dolphins"></i></a>
         <i class="headshot headshot-dolphins headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Dan Marino</h3>
           <h4 class="player-position-number">QB1 #13</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>70%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-6">6</li>
@@ -279,18 +296,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">7</section>
+        <div class="player-ranking">
+          <h5>7</h5>
+        </div>
+
         <a href="/teams/bengals/"><i class="helmet helmet-bengals"></i></a>
         <i class="headshot headshot-bengals headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Boomer Esiason</h3>
           <h4 class="player-position-number">QB1 #7</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>63%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-19">19</li>
@@ -301,18 +321,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">8</section>
+        <div class="player-ranking">
+          <h5>8</h5>
+        </div>
+
         <a href="/teams/giants/"><i class="helmet helmet-giants"></i></a>
         <i class="headshot headshot-giants headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Phil Simms</h3>
           <h4 class="player-position-number">QB1 #11</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>62%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -323,18 +346,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">9</section>
+        <div class="player-ranking">
+          <h5>9</h5>
+        </div>
+
         <a href="/teams/rams/"><i class="helmet helmet-rams"></i></a>
         <i class="headshot headshot-rams headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Jim Everett</h3>
           <h4 class="player-position-number">QB1 #11</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>61%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -345,18 +371,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">10</section>
+        <div class="player-ranking">
+          <h5>10</h5>
+        </div>
+
         <a href="/teams/seahawks/"><i class="helmet helmet-seahawks"></i></a>
         <i class="headshot headshot-seahawks headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Dave Krieg</h3>
           <h4 class="player-position-number">QB1 #17</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>59%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -367,18 +396,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">11</section>
+        <div class="player-ranking">
+          <h5>11</h5>
+        </div>
+
         <a href="/teams/buccaneers/"><i class="helmet helmet-buccaneers"></i></a>
         <i class="headshot headshot-buccaneers headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Vinny Testaverde</h3>
           <h4 class="player-position-number">QB1 #14</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>59%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-31">31</li>
@@ -389,18 +421,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">12</section>
+        <div class="player-ranking">
+          <h5>12</h5>
+        </div>
+
         <a href="/teams/chiefs/"><i class="helmet helmet-chiefs"></i></a>
         <i class="headshot headshot-chiefs headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Steve De Berg</h3>
           <h4 class="player-position-number">QB1 #17</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>57%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-6">6</li>
@@ -411,18 +446,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">13</section>
+        <div class="player-ranking">
+          <h5>13</h5>
+        </div>
+
         <a href="/teams/49ers/"><i class="helmet helmet-49ers"></i></a>
         <i class="headshot headshot-49ers headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Steve Young</h3>
           <h4 class="player-position-number">QB2 #8</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>56%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-25">25</li>
@@ -433,18 +471,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">14</section>
+        <div class="player-ranking">
+          <h5>14</h5>
+        </div>
+
         <a href="/teams/packers/"><i class="helmet helmet-packers"></i></a>
         <i class="headshot headshot-packers headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Don Majkowski</h3>
           <h4 class="player-position-number">QB1 #7</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>54%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-25">25</li>
@@ -455,18 +496,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">15</section>
+        <div class="player-ranking">
+          <h5>15</h5>
+        </div>
+
         <a href="/teams/jets/"><i class="helmet helmet-jets"></i></a>
         <i class="headshot headshot-jets headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Ken O.Brien</h3>
           <h4 class="player-position-number">QB1 #7</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>53%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -477,18 +521,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">16</section>
+        <div class="player-ranking">
+          <h5>16</h5>
+        </div>
+
         <a href="/teams/lions/"><i class="helmet helmet-lions"></i></a>
         <i class="headshot headshot-lions headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Rodney Peete</h3>
           <h4 class="player-position-number">QB1 #9</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>52%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-31">31</li>
@@ -499,18 +546,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">17</section>
+        <div class="player-ranking">
+          <h5>17</h5>
+        </div>
+
         <a href="/teams/broncos/"><i class="helmet helmet-broncos"></i></a>
         <i class="headshot headshot-broncos headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">John Elway</h3>
           <h4 class="player-position-number">QB1 #7</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>52%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-25">25</li>
@@ -521,18 +571,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">18</section>
+        <div class="player-ranking">
+          <h5>18</h5>
+        </div>
+
         <a href="/teams/cowboys/"><i class="helmet helmet-cowboys"></i></a>
         <i class="headshot headshot-cowboys headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Troy Aikman</h3>
           <h4 class="player-position-number">QB1 #8</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>48%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -543,18 +596,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">19</section>
+        <div class="player-ranking">
+          <h5>19</h5>
+        </div>
+
         <a href="/teams/lions/"><i class="helmet helmet-lions"></i></a>
         <i class="headshot headshot-lions headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Andre Ware</h3>
           <h4 class="player-position-number">QB2 #11</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>48%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-25">25</li>
@@ -565,18 +621,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">20</section>
+        <div class="player-ranking">
+          <h5>20</h5>
+        </div>
+
         <a href="/teams/chargers/"><i class="helmet helmet-chargers"></i></a>
         <i class="headshot headshot-chargers headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">B.J. Tolliver</h3>
           <h4 class="player-position-number">QB1 #11</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>48%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -587,18 +646,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">21</section>
+        <div class="player-ranking">
+          <h5>21</h5>
+        </div>
+
         <a href="/teams/dolphins/"><i class="helmet helmet-dolphins"></i></a>
         <i class="headshot headshot-dolphins headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Scott Mitchell</h3>
           <h4 class="player-position-number">QB2 #19</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>47%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -609,18 +671,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">22</section>
+        <div class="player-ranking">
+          <h5>22</h5>
+        </div>
+
         <a href="/teams/bengals/"><i class="helmet helmet-bengals"></i></a>
         <i class="headshot headshot-bengals headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Erik Wilhelm</h3>
           <h4 class="player-position-number">QB2 #4</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>46%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -631,18 +696,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">23</section>
+        <div class="player-ranking">
+          <h5>23</h5>
+        </div>
+
         <a href="/teams/saints/"><i class="helmet helmet-saints"></i></a>
         <i class="headshot headshot-saints headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">John Fourcade</h3>
           <h4 class="player-position-number">QB2 #11</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>46%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -653,18 +721,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">24</section>
+        <div class="player-ranking">
+          <h5>24</h5>
+        </div>
+
         <a href="/teams/vikings/"><i class="helmet helmet-vikings"></i></a>
         <i class="headshot headshot-vikings headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Wade Wilson</h3>
           <h4 class="player-position-number">QB1 #11</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>46%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -675,18 +746,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">25</section>
+        <div class="player-ranking">
+          <h5>25</h5>
+        </div>
+
         <a href="/teams/raiders/"><i class="helmet helmet-raiders"></i></a>
         <i class="headshot headshot-raiders headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Jay Schroeder</h3>
           <h4 class="player-position-number">QB1 #13</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>46%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -697,18 +771,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">26</section>
+        <div class="player-ranking">
+          <h5>26</h5>
+        </div>
+
         <a href="/teams/jets/"><i class="helmet helmet-jets"></i></a>
         <i class="headshot headshot-jets headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Tony Eason</h3>
           <h4 class="player-position-number">QB2 #11</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>46%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -719,18 +796,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">27</section>
+        <div class="player-ranking">
+          <h5>27</h5>
+        </div>
+
         <a href="/teams/cardinals/"><i class="helmet helmet-cardinals"></i></a>
         <i class="headshot headshot-cardinals headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Timm Rosenbach</h3>
           <h4 class="player-position-number">QB1 #3</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>45%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-19">19</li>
@@ -741,18 +821,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">28</section>
+        <div class="player-ranking">
+          <h5>28</h5>
+        </div>
+
         <a href="/teams/patriots/"><i class="helmet helmet-patriots"></i></a>
         <i class="headshot headshot-patriots headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Marc Wilson</h3>
           <h4 class="player-position-number">QB2 #15</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>45%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -763,18 +846,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">29</section>
+        <div class="player-ranking">
+          <h5>29</h5>
+        </div>
+
         <a href="/teams/bills/"><i class="helmet helmet-bills"></i></a>
         <i class="headshot headshot-bills headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Frank Reich</h3>
           <h4 class="player-position-number">QB2 #14</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>44%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -785,18 +871,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">30</section>
+        <div class="player-ranking">
+          <h5>30</h5>
+        </div>
+
         <a href="/teams/saints/"><i class="helmet helmet-saints"></i></a>
         <i class="headshot headshot-saints headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Steve Walsh</h3>
           <h4 class="player-position-number">QB1 #3</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>43%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -807,18 +896,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">31</section>
+        <div class="player-ranking">
+          <h5>31</h5>
+        </div>
+
         <a href="/teams/falcons/"><i class="helmet helmet-falcons"></i></a>
         <i class="headshot headshot-falcons headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Chris Miller</h3>
           <h4 class="player-position-number">QB1 #12</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>43%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -829,18 +921,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">32</section>
+        <div class="player-ranking">
+          <h5>32</h5>
+        </div>
+
         <a href="/teams/broncos/"><i class="helmet helmet-broncos"></i></a>
         <i class="headshot headshot-broncos headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Gary Kubiak</h3>
           <h4 class="player-position-number">QB2 #8</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>42%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -851,18 +946,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">33</section>
+        <div class="player-ranking">
+          <h5>33</h5>
+        </div>
+
         <a href="/teams/buccaneers/"><i class="helmet helmet-buccaneers"></i></a>
         <i class="headshot headshot-buccaneers headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Jeff Carlson</h3>
           <h4 class="player-position-number">QB2 #7</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>42%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -873,18 +971,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">34</section>
+        <div class="player-ranking">
+          <h5>34</h5>
+        </div>
+
         <a href="/teams/cardinals/"><i class="helmet helmet-cardinals"></i></a>
         <i class="headshot headshot-cardinals headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Tom Tupa</h3>
           <h4 class="player-position-number">QB2 #19</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>42%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -895,18 +996,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">35</section>
+        <div class="player-ranking">
+          <h5>35</h5>
+        </div>
+
         <a href="/teams/chargers/"><i class="helmet helmet-chargers"></i></a>
         <i class="headshot headshot-chargers headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Mark Vlasic</h3>
           <h4 class="player-position-number">QB2 #13</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>42%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -917,18 +1021,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">36</section>
+        <div class="player-ranking">
+          <h5>36</h5>
+        </div>
+
         <a href="/teams/chiefs/"><i class="helmet helmet-chiefs"></i></a>
         <i class="headshot headshot-chiefs headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Mike Elkins</h3>
           <h4 class="player-position-number">QB2 #10</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>42%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -939,18 +1046,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">37</section>
+        <div class="player-ranking">
+          <h5>37</h5>
+        </div>
+
         <a href="/teams/cowboys/"><i class="helmet helmet-cowboys"></i></a>
         <i class="headshot headshot-cowboys headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Babe Laufenberg</h3>
           <h4 class="player-position-number">QB2 #15</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>42%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -961,18 +1071,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">38</section>
+        <div class="player-ranking">
+          <h5>38</h5>
+        </div>
+
         <a href="/teams/packers/"><i class="helmet helmet-packers"></i></a>
         <i class="headshot headshot-packers headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Anthony Dilweg</h3>
           <h4 class="player-position-number">QB2 #8</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>42%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -983,18 +1096,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">39</section>
+        <div class="player-ranking">
+          <h5>39</h5>
+        </div>
+
         <a href="/teams/raiders/"><i class="helmet helmet-raiders"></i></a>
         <i class="headshot headshot-raiders headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Steve Beuerlein</h3>
           <h4 class="player-position-number">QB2 #7</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>42%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -1005,18 +1121,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">40</section>
+        <div class="player-ranking">
+          <h5>40</h5>
+        </div>
+
         <a href="/teams/rams/"><i class="helmet helmet-rams"></i></a>
         <i class="headshot headshot-rams headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Chuck Long</h3>
           <h4 class="player-position-number">QB2 #16</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>42%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -1027,18 +1146,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">41</section>
+        <div class="player-ranking">
+          <h5>41</h5>
+        </div>
+
         <a href="/teams/redskins/"><i class="helmet helmet-redskins"></i></a>
         <i class="headshot headshot-redskins headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Stan Humphries</h3>
           <h4 class="player-position-number">QB2 #16</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>42%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -1049,18 +1171,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">42</section>
+        <div class="player-ranking">
+          <h5>42</h5>
+        </div>
+
         <a href="/teams/seahawks/"><i class="helmet helmet-seahawks"></i></a>
         <i class="headshot headshot-seahawks headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Kelly Stouffer</h3>
           <h4 class="player-position-number">QB2 #11</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>42%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -1071,18 +1196,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">43</section>
+        <div class="player-ranking">
+          <h5>43</h5>
+        </div>
+
         <a href="/teams/steelers/"><i class="helmet helmet-steelers"></i></a>
         <i class="headshot headshot-steelers headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Rick Strom</h3>
           <h4 class="player-position-number">QB2 #11</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>42%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -1093,18 +1221,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">44</section>
+        <div class="player-ranking">
+          <h5>44</h5>
+        </div>
+
         <a href="/teams/steelers/"><i class="helmet helmet-steelers"></i></a>
         <i class="headshot headshot-steelers headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Bubby Brister</h3>
           <h4 class="player-position-number">QB1 #6</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>42%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -1115,18 +1246,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">45</section>
+        <div class="player-ranking">
+          <h5>45</h5>
+        </div>
+
         <a href="/teams/browns/"><i class="helmet helmet-browns"></i></a>
         <i class="headshot headshot-browns headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Mike Pagel</h3>
           <h4 class="player-position-number">QB2 #10</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>42%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-25">25</li>
@@ -1137,18 +1271,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">46</section>
+        <div class="player-ranking">
+          <h5>46</h5>
+        </div>
+
         <a href="/teams/redskins/"><i class="helmet helmet-redskins"></i></a>
         <i class="headshot headshot-redskins headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Mark Rypien</h3>
           <h4 class="player-position-number">QB1 #11</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>42%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-6">6</li>
@@ -1159,18 +1296,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">47</section>
+        <div class="player-ranking">
+          <h5>47</h5>
+        </div>
+
         <a href="/teams/falcons/"><i class="helmet helmet-falcons"></i></a>
         <i class="headshot headshot-falcons headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Hugh Millen</h3>
           <h4 class="player-position-number">QB2 #7</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>41%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -1181,18 +1321,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">48</section>
+        <div class="player-ranking">
+          <h5>48</h5>
+        </div>
+
         <a href="/teams/giants/"><i class="helmet helmet-giants"></i></a>
         <i class="headshot headshot-giants headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Jeff Hostetler</h3>
           <h4 class="player-position-number">QB2 #15</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>41%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-25">25</li>
@@ -1203,18 +1346,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">49</section>
+        <div class="player-ranking">
+          <h5>49</h5>
+        </div>
+
         <a href="/teams/colts/"><i class="helmet helmet-colts"></i></a>
         <i class="headshot headshot-colts headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Jack Trudeau</h3>
           <h4 class="player-position-number">QB2 #10</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>40%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -1225,18 +1371,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">50</section>
+        <div class="player-ranking">
+          <h5>50</h5>
+        </div>
+
         <a href="/teams/oilers/"><i class="helmet helmet-oilers"></i></a>
         <i class="headshot headshot-oilers headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Cody Carlson</h3>
           <h4 class="player-position-number">QB2 #14</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>39%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -1247,18 +1396,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">51</section>
+        <div class="player-ranking">
+          <h5>51</h5>
+        </div>
+
         <a href="/teams/bears/"><i class="helmet helmet-bears"></i></a>
         <i class="headshot headshot-bears headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Mike Tomczak</h3>
           <h4 class="player-position-number">QB2 #18</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>38%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -1269,18 +1421,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">52</section>
+        <div class="player-ranking">
+          <h5>52</h5>
+        </div>
+
         <a href="/teams/eagles/"><i class="helmet helmet-eagles"></i></a>
         <i class="headshot headshot-eagles headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Jim Mcmahon</h3>
           <h4 class="player-position-number">QB2 #9</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>38%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-6">6</li>
@@ -1291,18 +1446,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">53</section>
+        <div class="player-ranking">
+          <h5>53</h5>
+        </div>
+
         <a href="/teams/vikings/"><i class="helmet helmet-vikings"></i></a>
         <i class="headshot headshot-vikings headshot-QB2"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Rich Gannon</h3>
           <h4 class="player-position-number">QB2 #16</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>37%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -1313,18 +1471,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">54</section>
+        <div class="player-ranking">
+          <h5>54</h5>
+        </div>
+
         <a href="/teams/colts/"><i class="helmet helmet-colts"></i></a>
         <i class="headshot headshot-colts headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Jeff George</h3>
           <h4 class="player-position-number">QB1 #11</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>36%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-6">6</li>
@@ -1335,18 +1496,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">55</section>
+        <div class="player-ranking">
+          <h5>55</h5>
+        </div>
+
         <a href="/teams/bears/"><i class="helmet helmet-bears"></i></a>
         <i class="headshot headshot-bears headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Jim Harbaugh</h3>
           <h4 class="player-position-number">QB1 #4</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>34%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-13">13</li>
@@ -1357,18 +1521,21 @@
       </li>
     
       <li class="player player-listing">
-        <section class="ranking">56</section>
+        <div class="player-ranking">
+          <h5>56</h5>
+        </div>
+
         <a href="/teams/patriots/"><i class="helmet helmet-patriots"></i></a>
         <i class="headshot headshot-patriots headshot-QB1"></i>
 
-        <section class="player-info">
+        <div class="player-info">
           <h3 class="player-name">Steve Grogan</h3>
           <h4 class="player-position-number">QB1 #14</h4>
-        </section>
+        </div>
 
-        <section class="player-rating">
+        <div class="player-rating">
           <h5>26%</h5>
-        </section>
+        </div>
 
         <ul class="player-abilities">
           <li class="maximum-speed power-6">6</li>
@@ -1379,10 +1546,7 @@
       </li>
     
   </ol>
-
-  <p class="ability-notes">All QB have Running Speed 25, Rushing Power 69, and Hitting Power 13. Accuracy of Passing has no effect on performance.</p>
-</section>
-
+</div>
 
 
 
@@ -1390,6 +1554,29 @@
 
     <footer>
   <section class="footer-lists">
+    <ol class="player-list">
+  <li>
+    <h6>Positions</h6>
+    <ol>
+      <li><a href="/players/qb/">Quarterbacks</a></li>
+      <li><a href="/players/rushers/">Rushers</a></li>
+      <li><a href="/players/receivers/">Receivers</a></li>
+      <li><a href="/players/kick-returners/">Kick Returners</a></li>
+      <li><a href="/players/punt-returners/">Punt Returners</a></li>
+      <li><a href="/players/ol/">Offensive Linemen</a></li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li><a href="/players/dl/">Defensive Linemen</a></li>
+      <li><a href="/players/lb/">Linebackers</a></li>
+      <li><a href="/players/cb-s/">Secondary</a></li>
+      <li><a href="/players/k/">Kickers</a></li>
+      <li><a href="/players/p/">Punters</a></li>
+    </ol>
+  </li>
+</ol>
+
     <ol class="team-list">
   <li>
     <h6>AFC East</h6>
@@ -1452,42 +1639,18 @@
 </ol>
 
 
-    <ol class="player-list">
-  <li>
-    <ol>
-      <li><a href="/players/qb/">Quarterbacks</a></li>
-      <li><a href="/players/rushers/">Rushers</a></li>
-      <li><a href="/players/receivers/">Receivers</a></li>
-      <li><a href="/players/kick-returners/">Kick Returners</a></li>
-      <li><a href="/players/punt-returners/">Punt Returners</a></li>
-      <li><a href="/players/ol/">Offensive Linemen</a></li>
-    </ol>
-  </li>
-  <li>
-    <ol>
-      <li><a href="/players/dl/">Defensive Linemen</a></li>
-      <li><a href="/players/lb/">Linebackers</a></li>
-      <li><a href="/players/cb-s/">Secondary</a></li>
-      <li><a href="/players/k/">Kickers</a></li>
-      <li><a href="/players/p/">Punters</a></li>
-    </ol>
-  </li>
-</ol>
-
-
   </section>
 
   <section class="credits">
-    <p class="left">A labor of love by <a href="https://chad.is">Chad Mazzola</a></p>
-    <p class="right">I also made this: <a href="//beautifulwebtype.com">Beautiful Web Type</a></p>
+    <p>A labor of love by <a href="https://chad.is">Chad Mazzola</a> &bull; Also check out <a href="//beautifulwebtype.com">Beautiful Web Type</a></p>    
   </section>
 </footer>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script src="/javascripts/bootstrap.min.js"></script>
-    <script src="/javascripts/jquery.tinysort.min.js"></script>
-    <script src="/javascripts/application.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.tinysort.min.js"></script>
+    <script src="/js/application.js"></script>
     <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "095c2ad9809848348d9f40bc135848b6"}'></script>
   </body>
 </html>
